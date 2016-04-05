@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <SurfaceView
+        android:id="@+id/camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.turing.facerecognizationdemo.view.MyOverlayView
+        android:id="@+id/myOverlayView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+ <!--    <com.turing.facerecognizationdemo.view.RotateTextView
+        android:id="@+id/rotateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="right"
+        android:textColor="#ff0000"
+        android:textSize="10sp" /> -->
+     <com.turing.facerecognizationdemo.view.RotateTextView
+        android:id="@+id/rotateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+        android:gravity="right"
+        android:textColor="#ff0000"
+        android:textSize="15sp" />
+
+</RelativeLayout>

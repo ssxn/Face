@@ -1,0 +1,3 @@
+1_目前传输的图片大小是14K左右修改压缩的方法在：
+  (1)BitmapUtils的bitmap2Bytes里面(传输网络之前扣图用的)
+  (2)SaveBitmapUtils类中也可以进行更改
